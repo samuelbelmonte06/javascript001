@@ -1,12 +1,23 @@
-# Javascript 001
-aula de introduçao ao **javascript** 
 
-vamos estudar
-- variaveis
-- operadores 
-- estrutura de decisão
-- estrutura de repetição
-- vetor
-- interação com o DOM 
+# Aula de Javascript
 
-Samuel Belmonte
+aula de introdução ao Javascript, nesta aula vamos fazer exemplos basicos de ultilização da memoria 
+
+
+
+
+## Autores
+
+- [Samuel belmonte](https://www.github.com/samuelbelmonte06)
+
+
+## Etiquetas
+
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+
+
+## 🔗 Links
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
+
