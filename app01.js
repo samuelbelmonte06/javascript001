@@ -14,13 +14,13 @@ console.log(nome, idade)
 
 //tipos de dados 
 // text == string
-let cidade ="americana"
+let cidade = "americana"
 
 //numerico == number
 let salario = 1500.35
 
 //boleano == boolean 
-let fumante = false 
+let fumante = false
 
 console.log(typeof cidade)
 console.log(typeof salario)
@@ -29,16 +29,40 @@ console.log(typeof fumante)
 
 
 // Operadores
-//     Operador Atribuição
-//     Operadores aritméticos
-//     Operadores relacionais
-//     Operadores lógicos
+//     Operador Atribuição8 ( = )
+//     Operadores aritméticos ( +, -, /, *)
+console.log(10 + 15)
+let n1 = 10
+let n2 = 5
+console.log(n1 + n2) // soma 
+console.log(n1 - n2) // subtraçao
+console.log(n1 / n2) // divisao
+console.log(n1 * n2) // multiplicação 
+console.log(n1 % 3)  // modulo (resto da divisão)
+
+//     Operadores relacionais ( >, <, >=, <=, !=, ==)
+console.log(n1 == n2) // igualdade 
+console.log(n1 != n2) // diferente
+console.log(n1 > n2) // maior 
+console.log(10 < 10)  // menor
+console.log(10 <= 10) // menor igual
+console.log(150 >= 175) // maior igual 
+
+//     Operadores lógicos (!, &&, || )
+console.log(!10 > 2) // não - inverte o resultado, se for verdadeiro muda pra falso, se for falso muda para verdadeiro
+console.log(!false)
+console.log(10 > 2 && 35 < 100 && n1 > n2 && 100 < 90) // E - todas as verificaçoes precisam ser verdadeiras para o resultado ser verdadeiro
+
+console.log(10<2 || 100==150 || 57==57) // OU - apenas uma verificaçao precisa ser verdadeira para o resultado ser verdadeiro, o resultado só será falso quando TODAS as verificaçoes forem falsas 
+
+
+
 
 // Estrutura
 //     Estrutura de controle/decisão
 //     Laços de repetição
 
-// Arrays 
+// Arrays
 
 // Funções básicas
 // Escopo
@@ -59,5 +83,5 @@ console.log(typeof fumante)
 
 
 // Spread e REST  ************
- 
+
 
