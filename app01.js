@@ -92,11 +92,33 @@ let salariofunc = 3000
 if (salariofunc > 5000) {
     console.log("salario OK")
 } else {
-    console.log("precosa de uma aumento de " + ( 5000 - salariofunc)  + "reais" )
+    console.log("precisa de uma aumento de " + (5000 - salariofunc) + " reais ")
 }
 
 
 //     Laços de repetição
+// quero mostras 10 vezes a mensagem "senac americana"
+let controle = 1
+while(controle <=10){
+    console.log("senac americana")
+    controle = controle + 1
+}
+
+controle = 0 // definição da variavel de controle
+while(controle <= 100 ){ // condição
+    console.log(controle)
+    controle = controle + 2 // incremento
+}
+
+// mostrar 10 vezes "senac americana"
+
+for(let i=1; i<= 10; i=i+1){
+    console.log("senac americana")
+}
+
+for(let i=1;i<=50; i=i+1){
+    console.log(i)
+}
 
 // Arrays
 
