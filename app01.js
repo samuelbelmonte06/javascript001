@@ -72,6 +72,30 @@ console.log("preco com desconto: " + precoDesconto.toFixed(2))
 
 // Estrutura
 //     Estrutura de controle/decisão
+if (10 > 100) {
+    console.log("10 é maior que 5")
+} else {
+    console.log("10 é menor que 100")
+}
+let idadeDoCandidato = 20
+if (idadeDoCandidato >= 21) {
+    console.log("pode dirigir")
+} else {
+    console.log("volte mais tarde")
+}
+
+
+// DESAFIO;
+// faça um codigo que verifique se o salario do funcionario é maior que 5000, se for mostre a mensagem "salario OK" se não, mostre a mensagem "precisa de um aumento de x reais" 
+
+let salariofunc = 3000
+if (salariofunc > 5000) {
+    console.log("salario OK")
+} else {
+    console.log("precosa de uma aumento de " + ( 5000 - salariofunc)  + "reais" )
+}
+
+
 //     Laços de repetição
 
 // Arrays
